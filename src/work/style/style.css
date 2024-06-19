@@ -112,3 +112,23 @@ a.work, .work a {
   margin-block: 1lh 0;
   color: #fff;
 }
+
+@media (width <= 800px) {
+  .fixed--role-list {
+    display: none;
+  }
+}
+@media (width <= 800px) {
+  .fixed--role-list {
+    display: none;
+  }
+  .fixed--role-desc {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #a0a0a0;
+  }
+}
