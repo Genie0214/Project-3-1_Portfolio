@@ -21,7 +21,6 @@ html {
 
 body {
   margin: 0;
-  background-color: antiquewhite;
 }
 
 img {
@@ -83,6 +82,10 @@ img {
       margin-block: 0;
       font-size: 15px;
       font-weight: 400;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     &-list {

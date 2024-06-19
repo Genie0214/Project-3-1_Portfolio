@@ -19,7 +19,6 @@ html {
 
 body {
   margin: 0;
-  background-color: antiquewhite;
 }
 
 img {
@@ -72,6 +71,9 @@ a.fixed, .fixed a {
   margin-block: 0;
   font-size: 15px;
   font-weight: 400;
+}
+.fixed--role-about:hover {
+  text-decoration: underline;
 }
 .fixed--role-list {
   padding-left: 0;
