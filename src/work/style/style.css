@@ -25,6 +25,10 @@ img {
   display: block;
 }
 
+.padding {
+  padding-inline: 30px;
+}
+
 .years {
   margin-top: 20px;
   font-size: 14px;
